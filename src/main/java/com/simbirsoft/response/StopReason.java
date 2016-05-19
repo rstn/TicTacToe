@@ -1,0 +1,6 @@
+package com.simbirsoft.response;
+
+public enum StopReason {
+    OK, GAME_OVER, PLAYER_ONE_NOT_REGISTERED, PLAYER_TWO_NOT_REGISTERED, PLAYER_NOT_DEFINED, NOT_THIS_PLAYER_TURN,
+    INVALID_BOARD_MOVE
+}
