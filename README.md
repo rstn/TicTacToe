@@ -44,10 +44,6 @@ Return value: {gameState}
 * CROSS_WON - playerOne won the game
 * NOUGHT_WON - playerTwo won the game
 
-# Requirements
-
-JDK 8
-
 # Game flow
 
 1. Start the server through run.bat file (runtests.bat - run tests).
@@ -58,3 +54,15 @@ JDK 8
 
 4. If you want to start the game one more time then reset it and start with (2)
 point.
+
+# Requirements
+
+JDK 8
+
+# Improvements which can be implement in future
+
+* Add Swager for documentation of REST API
+
+* Add ability to run multiple games between two players
+
+* Possibility restart the game is the best use case (not full game reset)
